@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  
+}
+/* configuração do header     */
+
+header{
+ width: 90vw;
+ border: 1px solid black;
+ margin:10px auto;
+ display: flex;
+ justify-content: space-around;
+ align-items: center ;
+}
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: none;
+    border: 0 solid rgb(225, 214, 214);
+   
+}
+h2{
+    display: flex;
+ justify-content: space-around;
+    align-items: center ;
+}
+nav{
+   width: 300px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: row;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+
+    
+}
+.box{
+   
+    width: 90vw;
+    height: auto;
+    margin: 10px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
+img{
+    
+    display: flex;
+ justify-content:center;
+ align-items: center;
+
+}
+
+div{
+    
+    flex-direction: row;
+    justify-content: space-around;
+}
+.figura{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.box p{
+    text-align: justify;
+    text-indent: 15px;
+    margin: 10px auto;
+    padding: 20px;
+}
+.box2{
+    width: 90vw;
+    height: auto;
+    margin: 10px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(208, 184, 154);
+}
+.box3{
+    width: 90vw;
+    height: auto;
+    margin: 10px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(208, 184, 154);
+    
+}
+.box2 img{
+    
+    
+   
+}
+.box2 div{
+    text-align: justify;
+    text-indent: 15px;
+    margin: 10px auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.box2 div ul li{
+
+    list-style: none;
+}
+.box3 div ul li{
+
+    list-style: none;
+}
+.box1 div ul li{
+    list-style: none;
+}
+.box6{
+    width: 90vw;
+    height: auto;
+    margin: 10px auto;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    background-color: rgb(208, 184, 154);
+}
+li{
+    list-style: none;
+   
+}
+.jogadores{
+    border: 1px ;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    text-align: justify;
+    text-indent: 15px;
+    margin: 10px auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box4 p{
+    text-align: justify;
+    text-indent: 15px;
+    margin: 10px auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.box4{
+    width: 90vw;
+    height: auto;
+    margin:10px auto;
+    padding: 20px ;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(215, 194, 167);
+}
+/*fim do head
